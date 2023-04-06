@@ -1,0 +1,40 @@
+$backcolor: #385D50;
+$font: 'Inter', sans-serif;
+
+body {
+    font-family: $font;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.active {
+    color: white;
+}
+
+.header__inner {
+
+    display: flex;
+    justify-content: space-between;
+    background: $backcolor;
+
+    .firts-menu {
+        margin-left: auto;
+        .menu__list {
+            display: flex;
+            font-weight: 500;
+            font-size: 16px;
+            color: #cacaca;
+            .menu__list_item{
+                padding-right: 43px;
+            }
+        }
+    }
+
+}
+
+
+
