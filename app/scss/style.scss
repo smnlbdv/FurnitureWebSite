@@ -8,17 +8,22 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    max-width: 1170px;
 }
 
 .active {
     color: white;
 }
 
+.header {
+    height: 50px;
+    margin-top: 50px;
+}
+
 .header__inner {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: $backcolor;
 
     .firts-menu {
@@ -31,9 +36,17 @@ body {
             .menu__list_item{
                 padding-right: 43px;
             }
+            .menu__list_item:last-child{
+                padding-right: 70px;
+            }
+
         }
     }
-
+    .two-menu {
+        .menu__img:nth-child(2) {
+            padding-left: 15px;
+        }
+    }
 }
 
 
